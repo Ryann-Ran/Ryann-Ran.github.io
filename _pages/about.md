@@ -19,33 +19,37 @@ redirect_from:
 
 I am Yuran Wang, a senior student majoring in Software Engineering at Wuhan University.
 
-My research interest includes multimodal large language model and computer vision. 
+My research interest includes <i>multimodal large language model</i> and <i>computer vision</i>. 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 A first-author paper has been accepted to ACM MM 2024.
+- *2023.12*: &nbsp;🎉🎉 A co-authored paper has been accepted to AAAI 2024. 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/mm.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang, **ACM MM 2024 (CCF-A)**
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Contributing Dimension Structure of Deep Feature for Coreset Selection](https://github.com)
+Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh, **AAAI 2024 (CCF-A)**
 
 # 🎖 Honors and Awards
-- *2024.5* Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
-- *2023.11* Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
-- *2022.10* National Scholarship, First Class Scholarship, Merit Student. 
+- *2024.5*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
+- *2023.11*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
+- *2022.10*: National Scholarship, First Class Scholarship, Merit Student. 
 
 # 📖 Educations
 - *2025.09 - 2027.06 (future)*, Peking University. 
