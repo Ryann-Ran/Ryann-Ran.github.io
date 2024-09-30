@@ -19,7 +19,7 @@ redirect_from:
 
 I am Yuran Wang, a senior student majoring in Software Engineering at Wuhan University.
 
-My research interest includes <i>multimodal large language model</i> and <i>computer vision</i>. 
+My research interest includes *multimodal large language model* and *computer vision*. 
 
 
 # 🔥 News
@@ -28,7 +28,7 @@ My research interest includes <i>multimodal large language model</i> and <i>comp
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/mm.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/mm.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -40,11 +40,14 @@ My research interest includes <i>multimodal large language model</i> and <i>comp
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Contributing Dimension Structure of Deep Feature for Coreset Selection](https://github.com)
+
 Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh, **AAAI 2024 (CCF-A)**
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2024.5*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 

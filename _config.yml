@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuran Wang"
-description              : "Yuran's Homepage. "
+description              : 
 repository               : "Ryann-Ran/Ryann-Ran.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,8 +27,8 @@ author:
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=ZGq8cbIAAAAJ"
+  email            : "yuranw829@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
