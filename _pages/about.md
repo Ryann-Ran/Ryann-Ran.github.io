@@ -36,11 +36,10 @@ My research interest includes *multimodal large language model* and *computer vi
 **Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang, **ACM MM 2024 (CCF-A)**
 
 [**Code**](https://github.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI.png' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Contributing Dimension Structure of Deep Feature for Coreset Selection](https://github.com)
