@@ -31,7 +31,7 @@ My research interest includes *multimodal large language model* and *computer vi
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/mm.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://arxiv.org/abs/2409.20332)
 
 **Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang, **ACM MM 2024 (CCF-A)**
 
