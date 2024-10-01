@@ -23,7 +23,7 @@ My research interest includes *multimodal large language model* and *computer vi
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 A first-author paper has been accepted to ACM MM 2024.
+- *2024.07*: &nbsp;🎉🎉 A first-author paper has been accepted to ACM MM 2024.
 - *2023.12*: &nbsp;🎉🎉 A co-authored paper has been accepted to AAAI 2024. 
 
 # 📝 Publications 
