@@ -34,6 +34,7 @@ My research interest includes *multimodal large language model* and *computer vi
 [Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://dl.acm.org/doi/abs/10.1145/3664647.3680588)
 
 **Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang
+
 **ACM MM 2024 (CCF-A)**
 
 <!-- [**Code**](https://github.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
@@ -46,6 +47,7 @@ My research interest includes *multimodal large language model* and *computer vi
 [Contributing Dimension Structure of Deep Feature for Coreset Selection](https://ojs.aaai.org/index.php/AAAI/article/view/28758)
 
 Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh
+
 **AAAI 2024 (CCF-A)**
 
 [**Code**](https://github.com/ZhijingWan/contributing-dimension-structure) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
