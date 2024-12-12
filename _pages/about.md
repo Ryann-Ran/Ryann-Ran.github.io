@@ -55,14 +55,14 @@ Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ich
 </div>
 
 # 🎖 Honors and Awards
-- *2024.12*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student. 
+- *2024.11*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student. 
 - *2024.5*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2023.11*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
-- *2022.10*: National Scholarship, First Class Scholarship, Merit Student. 
+- *2022.11*: National Scholarship, First Class Scholarship, Merit Student. 
 
 # 📖 Educations
-- *2025.09 - 2027.06 (future)*, Peking University. 
-- *2021.09 - 2025.06*, Wuhan University. 
+- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University. 
+- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
