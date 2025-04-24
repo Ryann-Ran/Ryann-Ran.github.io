@@ -37,7 +37,7 @@ My research interest includes *multimodal large language model* and *computer vi
 
 **ACM MM 2024 (CCF-A)**
 
-<!-- [**Code**](https://github.com/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+[**Code**](https://github.com/Ryann-Ran/Lad) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
 
@@ -64,9 +64,6 @@ Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ich
 - *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University. 
 - *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University. 
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
 # 💻 Internships
-- *2024.10 - present*, [Baichuan AI](https://www.baichuan-ai.com/home), China.
+- *2024.10 - 2025.4*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), China.
+- *2022.10 - 2024.10*, research intern, AIM Lab led by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan University, China.
