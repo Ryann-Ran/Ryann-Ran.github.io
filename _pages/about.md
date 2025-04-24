@@ -23,6 +23,7 @@ My research interest includes *multimodal large language model* and *computer vi
 
 
 # 🔥 News
+- *2025.03*: &nbsp;🎉🎉 A co-authored paper has been accepted to CVPR 2025.
 - *2024.07*: &nbsp;🎉🎉 A first-author paper has been accepted to ACM MM 2024.
 - *2023.12*: &nbsp;🎉🎉 A co-authored paper has been accepted to AAAI 2024. 
 
@@ -41,6 +42,9 @@ My research interest includes *multimodal large language model* and *computer vi
 </div>
 </div>
 
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -54,16 +58,29 @@ Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ich
 </div>
 </div>
 
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
+
+</div>
+</div>
+
+
+
 # 🎖 Honors and Awards
 - *2024.11*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student. 
-- *2024.5*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
+- *2024.05*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2023.11*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
 - *2022.11*: National Scholarship, First Class Scholarship, Merit Student. 
 
 # 📖 Educations
-- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University. 
-- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University. 
+- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University, China. 
+- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University, China. 
 
 # 💻 Internships
-- *2024.10 - 2025.4*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), China.
+- *2024.10 - 2025.04*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), China.
 - *2022.10 - 2024.10*, research intern, AIM Lab led by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan University, China.
