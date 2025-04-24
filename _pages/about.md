@@ -44,27 +44,11 @@ My research interest includes *multimodal large language model* and *computer vi
 
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/AAAI.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Contributing Dimension Structure of Deep Feature for Coreset Selection](https://ojs.aaai.org/index.php/AAAI/article/view/28758)
-
-Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh
-
-**AAAI 2024 (CCF-A)**
-
-[**Code**](https://github.com/ZhijingWan/contributing-dimension-structure) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- [Contributing Dimension Structure of Deep Feature for Coreset Selection](https://ojs.aaai.org/index.php/AAAI/article/view/28758), Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh, **AAAI 2024 (CCF-A)**, [**Code**](https://github.com/ZhijingWan/contributing-dimension-structure)
 </div>
 </div>
 
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
+- [Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
 
 </div>
 </div>
