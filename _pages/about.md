@@ -23,8 +23,9 @@ My research interest includes *multimodal large language model* and *computer vi
 
 
 # 🔥 News
+- *2025.07*: &nbsp;🎉🎉 A co-first-authored paper has been accepted to ACM MM 2025.
 - *2025.03*: &nbsp;🎉🎉 A co-authored paper has been accepted to CVPR 2025.
-- *2024.07*: &nbsp;🎉🎉 A first-author paper has been accepted to ACM MM 2024.
+- *2024.07*: &nbsp;🎉🎉 A first-authored paper has been accepted to ACM MM 2024.
 - *2023.12*: &nbsp;🎉🎉 A co-authored paper has been accepted to AAAI 2024. 
 
 # 📝 Publications 
@@ -51,15 +52,17 @@ My research interest includes *multimodal large language model* and *computer vi
 
 
 # 🎖 Honors and Awards
+- *2025.05*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2024.11*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student. 
 - *2024.05*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2023.11*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
 - *2022.11*: National Scholarship, First Class Scholarship, Merit Student. 
 
 # 📖 Educations
-- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University, China. 
-- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University, China. 
+- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University, Beijing, China. 
+- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University, Wuhan, China. 
 
 # 💻 Internships
-- *2024.10 - 2025.04*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), China.
-- *2022.10 - 2024.10*, research intern, AIM Lab led by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan University, China.
+- *2025.06 - present*, research intern, [Kuaishou Technology](https://ir.kuaishou.com/), Beijing, China.
+- *2024.10 - 2025.04*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), Beijing, China.
+- *2022.10 - 2024.10*, research intern, AIM Lab led by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan University, Wuhan, China.
