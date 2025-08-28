@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yuran Wang, a senior student majoring in Software Engineering at Wuhan University.
+I am Yuran Wang, currently a Master's student in the School of Mathematical Sciences at Peking University. From 2022 to 2025, I conducted research on multimodal learning under the guidance of [Prof. Zheng Wang](https://wangzwhu.github.io/home/) at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab, focusing on unified understanding and generation, supervised by [Prof. Wentao Zhang](https://zwt233.github.io/) at Peking University.
 
-My research interest includes *multimodal large language model* and *computer vision*. 
+My research interests include *multimodal large language models* and *computer vision*. Feel free to reach out if you are interested in collaboration!
 
 
 # 🔥 News
