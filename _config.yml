@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Yuran Wang"
-description              : 
+description              : "Yuran Wang's academic homepage"
+url                      : "https://ryann-ran.github.io"
 repository               : "Ryann-Ran/Ryann-Ran.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -29,7 +30,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=ZGq8cbIAAAAJ"
   email            : "yuranwang25@stu.pku.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Yuran-Wang-16?ev=prf_overview"
+  # researchgate     : "https://www.researchgate.net/profile/Yuran-Wang-16?ev=prf_overview"
   uri              :
   bitbucket        :
   codepen          :
@@ -45,7 +46,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : https://orcid.org/my-orcid?orcid=0000-0002-3065-2830
+  orcid            : https://orcid.org/0000-0002-3065-2830
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

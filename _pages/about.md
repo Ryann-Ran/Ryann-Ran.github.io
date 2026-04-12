@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 I am Yuran Wang, currently pursuing a master's degree in the School of Mathematical Sciences at Peking University. From 2022 to 2025, I worked on computer vision under the supervision of [Prof. Zheng Wang](https://wangzwhu.github.io/home/) at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab at Peking University, where I focus on multimodal understanding and generation under the supervision of [Prof. Wentao Zhang](https://zwt233.github.io/).
@@ -34,7 +27,7 @@ My research interests include *visual generation* and *multimodal understanding*
 
 # 📝 Publications 
 
-(* indicates equal contribution)
+(\* indicates equal contribution)
 
 
 
@@ -42,10 +35,10 @@ My research interests include *visual generation* and *multimodal understanding*
 <div class='paper-box-text' markdown="1">
 
 Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling
-<a href="https://arxiv.org/pdf/2512.12675"><img alt="Build" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg">
+<a href="https://arxiv.org/pdf/2512.12675"><img alt="Build" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg"></a>
 <a href="https://github.com/Ryann-Ran/Scone"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Scone"></a> 
 
-**Yuran Wang***, Bohan Zeng*, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang
+**Yuran Wang**\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang
 
 **CVPR 2026 Highlight (CCF-A)**
 </div>
@@ -59,7 +52,7 @@ Scone: Bridging Composition and Distinction in Subject-Driven Image Generation v
 <div class='paper-box-text' markdown="1">
 
 Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation
-<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3680588"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg">
+<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3680588"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg"></a>
 <a href="https://github.com/Ryann-Ran/Lad"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Lad"></a> 
 
 **Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang
@@ -69,14 +62,13 @@ Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-S
 </div>
 
 
-- [Towards unifying visual understanding and generation with dual visual vocabularies](), Wei Song, **Yuran Wang**, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu, Jiaqi Wang, Kaicheng Yu, **ICLR 2026 (CCF-A)**
+- [Towards unifying visual understanding and generation with dual visual vocabularies](https://arxiv.org/pdf/2503.14324), Wei Song, **Yuran Wang**, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu, Jiaqi Wang, Kaicheng Yu, **ICLR 2026 (CCF-A)**, [**Project Page**](https://songweii.github.io/dualtoken-project-page/)
 
-- [RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark](https://arxiv.org/pdf/2509.24897), Yang Shi, Yuhao Dong, Yue Ding, **Yuran Wang**, et al., **CVPR 2026 (CCF-A)**
+- [RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark](https://arxiv.org/pdf/2509.24897), Yang Shi, Yuhao Dong, Yue Ding, **Yuran Wang**, et al., **CVPR 2026 (CCF-A)**, [**Code**](https://github.com/FrankYang-17/RealUnify)
 
-- [SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization](https://dl.acm.org/doi/abs/10.1145/3746027.3755104), Xinyi Hu*, **Yuran Wang***, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang, **ACM MM 2025 (CCF-A)**
+- [SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization](https://dl.acm.org/doi/abs/10.1145/3746027.3755104), Xinyi Hu\*, **Yuran Wang**\*, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang, **ACM MM 2025 (CCF-A)**
 
-- [Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset](https://dl.acm.org/doi/abs/10.1145/3746027.3758248), Ruixu Zhang*, **Yuran Wang***, Xinyi Hu*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang, **ACM MM 2025 Datasets Track (CCF-A)**
-
+- [Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset](https://dl.acm.org/doi/abs/10.1145/3746027.3758248), Ruixu Zhang\*, **Yuran Wang**\*, Xinyi Hu\*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang, **ACM MM 2025 Datasets Track (CCF-A)**, [**Code**](https://github.com/xinyi-hu/shot-dataset)
 
 - [Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
 
@@ -84,8 +76,7 @@ Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-S
 
 
 
-# Projects
-
+# 🔧 Projects
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/project_openworldlib.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
