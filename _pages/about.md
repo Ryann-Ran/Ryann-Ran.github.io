@@ -17,31 +17,65 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yuran Wang, currently a Master's student in the School of Mathematical Sciences at Peking University. From 2022 to 2025, I conducted research on multimodal learning under the guidance of [Prof. Zheng Wang](https://wangzwhu.github.io/home/) at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab, focusing on unified understanding and generation, supervised by [Prof. Wentao Zhang](https://zwt233.github.io/) at Peking University.
+I am Yuran Wang, currently pursuing a master's degree in the School of Mathematical Sciences at Peking University. From 2022 to 2025, I worked on computer vision under the supervision of [Prof. Zheng Wang](https://wangzwhu.github.io/home/) at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab at Peking University, where I focus on multimodal understanding and generation under the supervision of [Prof. Wentao Zhang](https://zwt233.github.io/).
 
-My research interests include *multimodal large language models* and *computer vision*. Feel free to reach out if you are interested in collaboration!
+My research interests include *visual generation* and *multimodal understanding*. Feel free to reach out if you are interested in collaborating.
 
+<div style="margin: 1em 0; padding: 0.75em 1em; border-left: 4px solid #c0392b; background: #fff5f5; font-weight: 700;">
+  🔥 Seeking PhD opportunities starting in Fall 2027. Feel free to <a href="mailto:yuranwang25@stu.pku.edu.cn">contact me</a>.
+</div>
 
+<!-- 
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 Two co-first-authored papers have been accepted to ACM MM 2025.
 - *2025.03*: &nbsp;🎉🎉 One co-authored paper has been accepted to CVPR 2025.
 - *2024.07*: &nbsp;🎉🎉 One first-authored paper has been accepted to ACM MM 2024.
-- *2023.12*: &nbsp;🎉🎉 One co-authored paper has been accepted to AAAI 2024. 
+- *2023.12*: &nbsp;🎉🎉 One co-authored paper has been accepted to AAAI 2024.  -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/mm.jpg' alt="sym" width="100%"></div></div>
+(* indicates equal contribution)
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_cvpr2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation](https://dl.acm.org/doi/abs/10.1145/3664647.3680588)
+Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling
+<a href="https://arxiv.org/pdf/2512.12675"><img alt="Build" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg">
+<a href="https://github.com/Ryann-Ran/Scone"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Scone"></a> 
+
+**Yuran Wang***, Bohan Zeng*, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang
+
+**CVPR 2026 Highlight (CCF-A)**
+</div>
+</div>
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation
+<a href="https://dl.acm.org/doi/abs/10.1145/3664647.3680588"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg">
+<a href="https://github.com/Ryann-Ran/Lad"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Lad"></a> 
 
 **Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang
 
 **ACM MM 2024 (CCF-A)**
+</div>
+</div>
 
-[**Code**](https://github.com/Ryann-Ran/Lad) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-</div>
-</div>
+
+- [Towards unifying visual understanding and generation with dual visual vocabularies](), Wei Song, **Yuran Wang**, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu, Jiaqi Wang, Kaicheng Yu, **ICLR 2026 (CCF-A)**
+
+- [RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark](https://arxiv.org/pdf/2509.24897), Yang Shi, Yuhao Dong, Yue Ding, **Yuran Wang**, et al., **CVPR 2026 (CCF-A)**
+
+- [SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization](https://dl.acm.org/doi/abs/10.1145/3746027.3755104), Xinyi Hu*, **Yuran Wang***, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang, **ACM MM 2025 (CCF-A)**
+
+- [Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset](https://dl.acm.org/doi/abs/10.1145/3746027.3758248), Ruixu Zhang*, **Yuran Wang***, Xinyi Hu*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang, **ACM MM 2025 Datasets Track (CCF-A)**
 
 
 - [Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
@@ -50,19 +84,40 @@ My research interests include *multimodal large language models* and *computer v
 
 
 
+# Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/project_openworldlib.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+OpenWorldLib: A Unified Codebase and Definition of Advanced World Models <a href="https://arxiv.org/abs/2604.04707"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white"></a>
+<a href="https://github.com/OpenDCAI/OpenWorldLib"><img alt="Build" src="https://img.shields.io/github/stars/OpenDCAI/OpenWorldLib"></a>
+
+
+DataFlow Team, Bohan Zeng, Daili Hua, Kaixin Zhu, Yifan Dai, Bozhou Li, **Yuran Wang**, et al.
+
+</div>
+</div>
+
+
 
 # 🎖 Honors and Awards
-- *2025.05*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
-- *2024.11*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student. 
-- *2024.05*: Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
-- *2023.11*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
-- *2022.11*: National Scholarship, First Class Scholarship, Merit Student. 
+- *2025*: Graduate Student Award for Scientific Practice and Innovation (北京大学研究生科学实践创新奖), Outstanding Graduate of Wuhan University (武汉大学优秀毕业生), Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
+- *2024*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student, Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
+- *2023*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
+- *2022*: National Scholarship, First Class Scholarship, Merit Student. 
 
-# 📖 Educations
-- *2025.09 - 2027.06 (future)*, Graduate, School of Mathematical Sciences, Peking University, Beijing, China. 
-- *2021.09 - 2025.06*, Undergraduate, School of Computer Science, Wuhan University, Wuhan, China. 
+# 📖 Education
+- *2025.09 - 2027.06 (expected)*, M.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, China.
+- *2021.09 - 2025.06*, B.Eng. in Computer Science, School of Computer Science, Wuhan University, Wuhan, China. GPA: 3.97/4.00, ranked 1/284.
 
 # 💻 Internships
-- *2025.06 - present*, research intern, [Kuaishou Technology](https://ir.kuaishou.com/), Beijing, China.
-- *2024.10 - 2025.04*, research intern, [Baichuan AI](https://www.baichuan-ai.com/home), Beijing, China.
-- *2022.10 - 2024.10*, research intern, AIM Lab led by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan University, Wuhan, China.
+- *2025.06 - Present*, Research Intern, Kling Team, [Kuaishou Technology](https://ir.kuaishou.com/), Beijing, China.
+- *2024.10 - 2025.04*, Research Intern, [Baichuan AI](https://www.baichuan-ai.com/home), Beijing, China.
+- *2022.10 - 2024.10*, Research Intern, AIM Lab, Wuhan University, advised by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan, China.
+
+<div style="margin: 2em auto 0; padding: 1.15em 1em 0.95em; border: 1px solid #ececec; border-radius: 14px; background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%); text-align: center; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);">
+  <p style="margin: 0 0 0.85em; color: #666; font-size: 0.95em;">Thanks for visiting my homepage.</p>
+  <a href="https://info.flagcounter.com/LyV1" target="_blank" rel="noopener noreferrer">
+    <img src="https://s05.flagcounter.com/count/LyV1/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" style="display: block; margin: 0 auto; max-width: 100%; height: auto; border-radius: 8px;">
+  </a>
+</div>
