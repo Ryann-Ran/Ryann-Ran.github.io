@@ -34,13 +34,13 @@ My research interests include *visual generation* and *multimodal understanding*
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_cvpr2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling
+Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling<br>
 <a href="https://arxiv.org/pdf/2512.12675"><img alt="Build" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg"></a>
 <a href="https://github.com/Ryann-Ran/Scone"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Scone"></a> 
 
-**Yuran Wang**\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang
+<em><strong>Yuran Wang</strong>\*, Bohan Zeng\*, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang#</em>
 
-**CVPR 2026 Highlight (CCF-A)**
+**CVPR 2026 <span style="color: #d32f2f;">Highlight</span> <span style="color: #d32f2f;">(CCF-A)</span>**
 </div>
 </div>
 
@@ -51,28 +51,62 @@ Scone: Bridging Composition and Distinction in Subject-Driven Image Generation v
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation
+Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation<br>
 <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3680588"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg"></a>
 <a href="https://github.com/Ryann-Ran/Lad"><img alt="Build" src="https://img.shields.io/github/stars/Ryann-Ran/Lad"></a> 
 
-**Yuran Wang**, Zhijing Wan, Yansheng Qiu, Zheng Wang
+<em><strong>Yuran Wang</strong>, Zhijing Wan, Yansheng Qiu, Zheng Wang#</em>
 
-**ACM MM 2024 (CCF-A)**
+**ACM MM 2024 <span style="color: #d32f2f;">(CCF-A)</span>**
 </div>
 </div>
 
 
-- [Towards unifying visual understanding and generation with dual visual vocabularies](https://arxiv.org/pdf/2503.14324), Wei Song, **Yuran Wang**, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu, Jiaqi Wang, Kaicheng Yu, **ICLR 2026 (CCF-A)**, [**Project Page**](https://songweii.github.io/dualtoken-project-page/)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm25_span.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- [RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark](https://arxiv.org/pdf/2509.24897), Yang Shi, Yuhao Dong, Yue Ding, **Yuran Wang**, et al., **CVPR 2026 (CCF-A)**, [**Code**](https://github.com/FrankYang-17/RealUnify)
+SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization<br>
+<a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755104"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg"></a>
 
-- [SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization](https://dl.acm.org/doi/abs/10.1145/3746027.3755104), Xinyi Hu\*, **Yuran Wang**\*, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang, **ACM MM 2025 (CCF-A)**
+<em>Xinyi Hu\*, <strong>Yuran Wang</strong>\*, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang#</em>
 
-- [Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset](https://dl.acm.org/doi/abs/10.1145/3746027.3758248), Ruixu Zhang\*, **Yuran Wang**\*, Xinyi Hu\*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang, **ACM MM 2025 Datasets Track (CCF-A)**, [**Code**](https://github.com/xinyi-hu/shot-dataset)
+**ACM MM 2025 <span style="color: #d32f2f;">(CCF-A)</span>**
+</div>
+</div>
 
-- [Anomize: Better Open Vocabulary Video Anomaly Detection](https://arxiv.org/abs/2503.18094), Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, **Yuran Wang**, Xian Zhong, Zheng Wang, **CVPR 2025 (CCF-A)**
 
-- [Contributing Dimension Structure of Deep Feature for Coreset Selection](https://ojs.aaai.org/index.php/AAAI/article/view/28758), Zhijing Wan, Zhixiang Wang, **Yuran Wang**, Zheng Wang, Hongyuan Zhu, Shin’ichi Satoh, **AAAI 2024 (CCF-A)**, [**Code**](https://github.com/ZhijingWan/contributing-dimension-structure)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm25_shot.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset<br>
+<a href="https://dl.acm.org/doi/abs/10.1145/3746027.3758248"><img alt="Build" src="https://img.shields.io/badge/acm-Paper-b31b1b.svg"></a>
+<a href="https://github.com/xinyi-hu/shot-dataset"><img alt="Build" src="https://img.shields.io/github/stars/xinyi-hu/shot-dataset"></a>
+
+<em>Ruixu Zhang\*, <strong>Yuran Wang</strong>\*, Xinyi Hu\*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang#</em>
+
+**ACM MM 2025 Datasets Track <span style="color: #d32f2f;">(CCF-A)</span>**
+</div>
+</div>
+
+
+- Towards unifying visual understanding and generation with dual visual vocabularies<br>
+  <a href="https://arxiv.org/pdf/2503.14324"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg"></a>
+  <a href="https://songweii.github.io/dualtoken-project-page/"><img alt="Project Page" src="https://img.shields.io/badge/Project-Page-0a7ea4.svg"></a> **ICLR 2026 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Wei Song, <strong>Yuran Wang</strong>, Zijia Song, Yadong Li, Haoze Sun, Weipeng Chen, Zenan Zhou, Jianhua Xu#, Jiaqi Wang#, Kaicheng Yu#</em>
+
+- RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark<br>
+  <a href="https://arxiv.org/pdf/2509.24897"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg"></a>
+  <a href="https://github.com/FrankYang-17/RealUnify"><img alt="Code" src="https://img.shields.io/github/stars/FrankYang-17/RealUnify"></a> **CVPR 2026 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Yang Shi, Yuhao Dong, Yue Ding, <strong>Yuran Wang</strong>, Xuanyu Zhu, Sheng Zhou, Wenting Liu, Haochen Tian, Rundong Wang, Huanqian Wang, Zuyan Liu, Bohan Zeng, Ruizhe Chen, Qixun Wang, Zhuoran Zhang, Xinlong Chen, Chengzhuo Tong, Bozhou Li, Qiang Liu, Haotian Wang#, Wenjing Yang, Yuanxing Zhang#, Pengfei Wan, Yi-Fan Zhang#, Ziwei Liu#</em>
+
+- Anomize: Better Open Vocabulary Video Anomaly Detection<br>
+  <a href="https://arxiv.org/abs/2503.18094"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg"></a> **CVPR 2025 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, <strong>Yuran Wang</strong>, Xian Zhong, Zheng Wang#</em>
+
+- Contributing Dimension Structure of Deep Feature for Coreset Selection<br>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28758"><img alt="Paper" src="https://img.shields.io/badge/AAAI-Paper-b31b1b.svg"></a>
+  <a href="https://github.com/ZhijingWan/contributing-dimension-structure"><img alt="Code" src="https://img.shields.io/github/stars/ZhijingWan/contributing-dimension-structure"></a> **AAAI 2024 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Zhijing Wan, Zhixiang Wang, <strong>Yuran Wang</strong>, Zheng Wang#, Hongyuan Zhu, Shin’ichi Satoh</em>
 
 
 
@@ -80,11 +114,14 @@ Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-S
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/project_openworldlib.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-OpenWorldLib: A Unified Codebase and Definition of Advanced World Models <a href="https://arxiv.org/abs/2604.04707"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white"></a>
+OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
+<a href="https://arxiv.org/abs/2604.04707"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white"></a>
 <a href="https://github.com/OpenDCAI/OpenWorldLib"><img alt="Build" src="https://img.shields.io/github/stars/OpenDCAI/OpenWorldLib"></a>
 
 
-DataFlow Team, Bohan Zeng, Daili Hua, Kaixin Zhu, Yifan Dai, Bozhou Li, **Yuran Wang**, et al.
+<em>DataFlow Team, Bohan Zeng, Daili Hua, Kaixin Zhu, Yifan Dai, Bozhou Li, <strong>Yuran Wang</strong>, Chengzhuo Tong, Yifan Yang, Mingkun Chang, Jianbin Zhao, Zhou Liu, Hao Liang, Xiaochen Ma, Ruichuan An, Junbo Niu, Zimo Meng, Tianyi Bai, Meiyi Qiang, Huanyao Zhang, Zhiyou Xiao, Tianyu Guo, Qinhan Yu, Runhao Zhao, Zhengpin Li, Xinyi Huang, Yisheng Pan, Yiwen Tang, Yang Shi, Yue Ding, Xinlong Chen, Hongcheng Gao, Minglei Shi, Jialong Wu, Zekun Wang, Yuanxing Zhang, Xintao Wang, Pengfei Wan, Yiren Song, Mike Zheng Shou, Wentao Zhang#</em>
+
+**My Contribution:** Core Contributor; Develops the pipeline for interactive video generation tasks in OpenWorldLib.
 
 </div>
 </div>
