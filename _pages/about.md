@@ -134,7 +134,7 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 - *2023*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
 - *2022*: <span style="color: #d32f2f;">National Scholarship</span>, First Class Scholarship, Merit Student. 
 
-# 📖 Education
+# 📖 Educations
 - *2025.09 - 2027.06 (expected)*, M.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, China.
 - *2021.09 - 2025.06*, B.Eng. in Computer Science, School of Computer Science, Wuhan University, Wuhan, China. <span style="color: #d32f2f;">GPA: 3.97/4.00, ranked 1/284</span>.
 
@@ -143,7 +143,7 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 - *2024.10 - 2025.04*, Research Intern, [Baichuan AI](https://www.baichuan-ai.com/home), Beijing, China.
 - *2022.10 - 2024.10*, Research Intern, AIM Lab, Wuhan University, advised by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan, China.
 
-# 🎓 Academic Service
+# 🎓 Services
 - Conference Reviewer: ACM MM 2025/2026, AAAI 2026, ICME 2026.
 
 <div style="margin: 2em auto 0; padding: 1.15em 1em 0.95em; border: 1px solid #ececec; border-radius: 14px; background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%); text-align: center; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);">
