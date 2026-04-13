@@ -15,7 +15,7 @@ I am Yuran Wang, currently pursuing a master's degree in the School of Mathemati
 My research interests include *visual generation* and *multimodal understanding*. Feel free to reach out if you are interested in collaborating.
 
 <div style="margin: 1em 0; padding: 0.75em 1em; border-left: 4px solid #c0392b; background: #fff5f5; font-weight: 700;">
-  🔥 Seeking PhD opportunities starting in Fall 2027. Feel free to <a href="mailto:yuranwang25@stu.pku.edu.cn">contact me</a>.
+  🔥 Seeking PhD opportunities starting in Fall 2027. Feel free to <a href="mailto:yuranwang25@stu.pku.edu.cn">contact me</a> :)
 </div>
 
 <!-- 
@@ -132,16 +132,19 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 - *2025*: Graduate Student Award for Scientific Practice and Innovation (北京大学研究生科学实践创新奖), Outstanding Graduate of Wuhan University (武汉大学优秀毕业生), Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2024*: Liu Daoyu Creative Learning Award First Prize (刘道玉创造学习奖一等奖), First Class Scholarship, Merit Student, Lei Jun Computer Innovation and Development Grant (雷军计算机创新与发展资助基金). 
 - *2023*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
-- *2022*: National Scholarship, First Class Scholarship, Merit Student. 
+- *2022*: <span style="color: #d32f2f;">National Scholarship</span>, First Class Scholarship, Merit Student. 
 
 # 📖 Education
 - *2025.09 - 2027.06 (expected)*, M.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, China.
-- *2021.09 - 2025.06*, B.Eng. in Computer Science, School of Computer Science, Wuhan University, Wuhan, China. GPA: 3.97/4.00, ranked 1/284.
+- *2021.09 - 2025.06*, B.Eng. in Computer Science, School of Computer Science, Wuhan University, Wuhan, China. <span style="color: #d32f2f;">GPA: 3.97/4.00, ranked 1/284</span>.
 
 # 💻 Internships
 - *2025.06 - Present*, Research Intern, Kling Team, [Kuaishou Technology](https://ir.kuaishou.com/), Beijing, China.
 - *2024.10 - 2025.04*, Research Intern, [Baichuan AI](https://www.baichuan-ai.com/home), Beijing, China.
 - *2022.10 - 2024.10*, Research Intern, AIM Lab, Wuhan University, advised by [Prof. Zheng Wang](https://wangzwhu.github.io/home/), Wuhan, China.
+
+# 🎓 Academic Service
+- Conference Reviewer: ACM MM 2025/2026, AAAI 2026, ICME 2026.
 
 <div style="margin: 2em auto 0; padding: 1.15em 1em 0.95em; border: 1px solid #ececec; border-radius: 14px; background: linear-gradient(180deg, #fcfcfc 0%, #f7f7f7 100%); text-align: center; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);">
   <p style="margin: 0 0 0.85em; color: #666; font-size: 0.95em;">Thanks for visiting my homepage.</p>
