@@ -129,7 +129,7 @@ My research interests include *visual generation* and *multimodal understanding*
 
 # 📝 Publications 
 
-(\* indicates equal contribution)
+(\* indicates equal contribution; # indicates corresponding author)
 
 
 
