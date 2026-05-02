@@ -190,6 +190,11 @@ Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset
 </div>
 </div>
 
+- CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation<br>
+  <a href="https://arxiv.org/pdf/2601.10061"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a>
+  <a href="https://cof-t2i.github.io/"><img alt="Project Page" src="https://img.shields.io/badge/Project-Page-0a7ea4.svg"></a>
+  <a href="https://github.com/VisionChengzhuo/CoF-T2I"><img alt="Code" src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github&logoColor=white"></a> **ICML 2026 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Chengzhuo Tong, Mingkun Chang, Shenglong Zhang, <strong>Yuran Wang</strong>, Cheng Liang, Zhizheng Zhao, Ruichuan An, Bohan Zeng, Yang Shi, Yifan Dai, Ziming Zhao, Guanbin Li, Pengfei Wan, Yuanxing Zhang, Wentao Zhang#</em>
 
 - Towards unifying visual understanding and generation with dual visual vocabularies<br>
   <a href="https://arxiv.org/pdf/2503.14324"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a>
@@ -232,9 +237,9 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 
 
 
-# 📖 Educations
-- *2025.09 - 2027.06 (expected)*, M.S. in Mathematics, School of Mathematical Sciences, Peking University, Beijing, China.
-- *2021.09 - 2025.06*, B.Eng. in Computer Science, School of Computer Science, Wuhan University, Wuhan, China. <span style="color: #d32f2f;">GPA: 3.97/4.00, ranked 1/267</span>.
+# 📖 Education
+- *2025.09 - 2027.06 (expected)*, M.S. in Big Data, School of Mathematical Sciences, Peking University, Beijing, China.
+- *2021.09 - 2025.06*, B.Eng. in Software Engineering, School of Computer Science, Wuhan University, Wuhan, China. <span style="color: #d32f2f;">GPA: 3.97/4.00, ranked 1/267</span>.
 
 # 💻 Internships
 <div class="internship-list">
