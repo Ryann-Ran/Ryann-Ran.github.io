@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-last_updated: 2026-04-28
+last_updated: 2026-08
 redirect_from: 
   - /about/
   - /about.html
@@ -55,6 +55,12 @@ redirect_from:
   height: 2.05em;
   object-fit: cover;
   object-position: center;
+  border-radius: 50%;
+}
+
+.internship-icon--kling img {
+  width: 2.05em;
+  height: 2.05em;
   border-radius: 50%;
 }
 
@@ -127,6 +133,19 @@ My research interests include *visual generation* and *multimodal understanding*
 - *2024.07*: &nbsp;🎉🎉 One first-authored paper has been accepted to ACM MM 2024.
 - *2023.12*: &nbsp;🎉🎉 One co-authored paper has been accepted to AAAI 2024.  -->
 
+
+# 📄 Preprint
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_flux_opd.png' alt="Flux-OPD method overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Flux-OPD: On-Policy Distillation with Evolving Contexts<br>
+<a href="https://arxiv.org/pdf/2607.28022"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a>
+
+<em><strong>Yuran Wang</strong>, Zekun Wang, Bohan Zeng, Ruixu Zhang, Wenxuan Liu, Liu Yang, Yifan Dai, Yang Shi, Bozhou Li, Chengzhuo Tong, Daili Hua, Yuanxing Zhang, Wentao Zhang#</em>
+</div>
+</div>
+
 # 📝 Publications 
 
 (\* indicates equal contribution; # indicates corresponding author)
@@ -164,31 +183,7 @@ Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-S
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm25_span.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization<br>
-<a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755104"><img alt="Paper" src="https://img.shields.io/badge/ACM-Paper-b31b1b.svg?logo=acm&logoColor=white"></a>
-
-<em>Xinyi Hu\*, <strong>Yuran Wang</strong>\*, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang#</em>
-
-**ACM MM 2025 <span style="color: #d32f2f;">(CCF-A)</span>**
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/paper_mm25_shot.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset<br>
-<a href="https://dl.acm.org/doi/abs/10.1145/3746027.3758248"><img alt="Paper" src="https://img.shields.io/badge/ACM-Paper-b31b1b.svg?logo=acm&logoColor=white"></a>
-<a href="https://github.com/xinyi-hu/shot-dataset"><img alt="Code" src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github&logoColor=white"></a>
-
-<em>Ruixu Zhang\*, <strong>Yuran Wang</strong>\*, Xinyi Hu\*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang#</em>
-
-**ACM MM 2025 Datasets Track <span style="color: #d32f2f;">(CCF-A)</span>**
-</div>
-</div>
 
 - CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation<br>
   <a href="https://arxiv.org/pdf/2601.10061"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a>
@@ -211,10 +206,22 @@ Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset
   <a href="https://arxiv.org/abs/2503.18094"><img alt="Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a> **CVPR 2025 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
   <em>Fei Li, Wenxuan Liu, Jingjing Chen, Ruixu Zhang, <strong>Yuran Wang</strong>, Xian Zhong, Zheng Wang#</em>
 
+- SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization<br>
+  <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755104"><img alt="Paper" src="https://img.shields.io/badge/ACM-Paper-b31b1b.svg?logo=acm&logoColor=white"></a> **ACM MM 2025 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Xinyi Hu\*, <strong>Yuran Wang</strong>\*, Ruixu Zhang, Yue Li, Wenxuan Liu, Zheng Wang#</em>
+
+- Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset<br>
+  <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3758248"><img alt="Paper" src="https://img.shields.io/badge/ACM-Paper-b31b1b.svg?logo=acm&logoColor=white"></a>
+  <a href="https://github.com/xinyi-hu/shot-dataset"><img alt="Code" src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github&logoColor=white"></a> **ACM MM 2025 Datasets Track <span style="color: #d32f2f;">(CCF-A)</span>**<br>
+  <em>Ruixu Zhang\*, <strong>Yuran Wang</strong>\*, Xinyi Hu\*, Chaoyu Mai, Wenxuan Liu, Danni Xu, Xian Zhong, Zheng Wang#</em>
+
 - Contributing Dimension Structure of Deep Feature for Coreset Selection<br>
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28758"><img alt="Paper" src="https://img.shields.io/badge/AAAI-Paper-b31b1b.svg?logo=readthedocs&logoColor=white"></a>
   <a href="https://github.com/ZhijingWan/contributing-dimension-structure"><img alt="Code" src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github&logoColor=white"></a> **AAAI 2024 <span style="color: #d32f2f;">(CCF-A)</span>**<br>
   <em>Zhijing Wan, Zhixiang Wang, <strong>Yuran Wang</strong>, Zheng Wang#, Hongyuan Zhu, Shin’ichi Satoh</em>
+
+
+
 
 
 
@@ -238,19 +245,19 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 
 
 # 📖 Education
-- *2025.09 - 2027.06 (expected)*, M.S. in Big Data, School of Mathematical Sciences, Peking University, Beijing, China.
-- *2021.09 - 2025.06*, B.Eng. in Software Engineering, School of Computer Science, Wuhan University, Wuhan, China. <span style="color: #d32f2f;">GPA: 3.97/4.00, ranked 1/267</span>.
+- *2025 - 2027 (expected)*, M.S. in Big Data, School of Mathematical Sciences, Peking University, Beijing, China.
+- *2021 - 2025*, B.Eng. in Software Engineering, School of Computer Science, Wuhan University, Wuhan, China.
 
 # 💻 Internships
 <div class="internship-list">
   <div class="internship-entry">
-    <span class="internship-icon"><img src="https://www.kuaishou.com/favicon.ico" alt="Kuaishou Technology logo"></span>
+    <span class="internship-icon internship-icon--kling"><img src="images/logo_kling.png" alt="Kling AI logo"></span>
     <div class="internship-main">
       <div class="internship-heading">
         <strong>Research Intern</strong>
         <span class="internship-date">2025.06 - Present</span>
       </div>
-      <div class="internship-org">Kling Team, <a href="https://ir.kuaishou.com/">Kuaishou Technology</a></div>
+      <div class="internship-org"><a href="https://kling.ai/">Kling AI</a></div>
       <div class="internship-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Beijing, China</div>
     </div>
   </div>
@@ -283,13 +290,11 @@ OpenWorldLib: A Unified Codebase and Definition of Advanced World Models<br>
 
 
 # 🎖 Honors and Awards
-- *2025*: Graduate Student Award for Scientific Practice and Innovation in Peking University, Outstanding Graduate in Wuhan University, Lei Jun Computer Innovation and Development Grant. 
-- *2024*: Liu Daoyu Creative Learning Award First Prize, First Class Scholarship, Merit Student, Lei Jun Computer Innovation and Development Grant. 
-- *2023*: Lei Jun Computer Science Scholarship, First Class Scholarship, Merit Student. 
-- *2022*: <span style="color: #d32f2f;">National Scholarship</span>, First Class Scholarship, Merit Student. 
+- *2022-2025*: National Scholarship, First Class Scholarship, Outstanding Graduate.
+
 
 # 🎓 Services
-- Conference Reviewer: ACM MM 2025/2026, AAAI 2026, ICME 2026.
+- Conference Reviewer: ACM MM 2025-2026, AAAI 2026-2027, ECCV 2026, ICME 2026.
 
 <div class="page-footer-meta">
   <span>Last updated: {{ page.last_updated | date: "%Y.%m.%d" }}</span>
