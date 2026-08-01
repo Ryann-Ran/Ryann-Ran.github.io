@@ -46,4 +46,4 @@ if [[ "$COMMAND" == "live" || "$COMMAND" == "liveserve" ]]; then
   exec "$SYSTEM_BUNDLE" "_${BUNDLER_VERSION}_" exec jekyll liveserve "${ARGS[@]}"
 fi
 
-exec "$SYSTEM_BUNDLE" "_${BUNDLER_VERSION}_" exec jekyll serve "${ARGS[@]}"
+exec "$SYSTEM_BUNDLE" "_${BUNDLER_VERSION}_" exec jekyll "$COMMAND" "${ARGS[@]}"

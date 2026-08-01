@@ -56,6 +56,18 @@ Some examples:
         > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
 1. Your page will be published at `https://USERNAME.github.io`.
 
+## Managing publications
+
+All preprints and publications live in [`_data/publications.yml`](./_data/publications.yml). The homepage is generated from this file, so adding, editing, reordering, or removing a paper does not require touching the page markup.
+
+- Copy an existing item to add a paper; remove its YAML block to delete it.
+- Use `type: preprint` or `type: publication` to choose the section.
+- Keep `authors`, `primary_tags`, and optional `secondary_tags` as YAML lists. The two-level tag hierarchy is declared once at the top of the file.
+- Set `first_author: true` and provide `image` plus `image_alt` for the illustrated card layout. Other papers use the compact layout.
+- `paper_url`, `code_url`, `project_url`, and `award` are optional.
+
+The order of items in the YAML file is also their display order. Run the local server after editing to validate the data and preview the tag filters.
+
 ## Debug Locally
 
 1. Clone your REPO to local using `git clone`.
@@ -63,6 +75,7 @@ Some examples:
 1. Run `bash run_server.sh` to start Jekyll livereload server.
 1. Open http://127.0.0.1:4000 in your browser.
 1. If you change the source code of the website, the livereload server will automatically refresh.
+1. Run `./run_server.sh build` for a production build check before publishing.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
 # Acknowledges

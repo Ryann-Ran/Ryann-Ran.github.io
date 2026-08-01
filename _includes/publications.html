@@ -1,0 +1,63 @@
+{% assign publication_data = site.data.publications %}
+{% assign publication_items = publication_data.items %}
+{% assign preprints = publication_items | where: "type", "preprint" %}
+{% assign published_papers = publication_items | where: "type", "publication" %}
+
+<section class="research-papers" aria-labelledby="research-papers-title">
+  <h1 id="research-papers-title"><span aria-hidden="true">📚</span> Papers</h1>
+  <p class="publication-note"><span aria-hidden="true">*</span> equal contribution; <span aria-hidden="true">#</span> corresponding author</p>
+
+  <div class="publication-browser" data-publication-browser>
+    <div class="publication-filter" aria-label="Filter all papers by research topic">
+      <div class="publication-filter__level">
+        <span class="publication-filter__label">Level 1</span>
+        <div class="publication-filter__controls" role="group" aria-label="Primary research topics">
+          <button class="publication-filter__button is-active" type="button" data-publication-primary-filter="all" aria-pressed="true">All</button>
+          {% for tag in publication_data.primary_tags %}
+            <button class="publication-filter__button" type="button" data-publication-primary-filter="{{ tag.name | escape }}" aria-pressed="false">{{ tag.name }}</button>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% for tag in publication_data.primary_tags %}
+        {% if tag.secondary_tags %}
+          <div class="publication-filter__level publication-filter__level--secondary" data-publication-secondary-group data-parent-primary-tag="{{ tag.name | escape }}" hidden>
+            <span class="publication-filter__label">Level 2</span>
+            <div class="publication-filter__controls" role="group" aria-label="{{ tag.name | escape }} subtopics">
+              <button class="publication-filter__button publication-filter__button--secondary is-active" type="button" data-publication-secondary-filter="all" data-secondary-parent="{{ tag.name | escape }}" aria-pressed="true">All {{ tag.name }}</button>
+              {% for secondary_tag in tag.secondary_tags %}
+                <button class="publication-filter__button publication-filter__button--secondary" type="button" data-publication-secondary-filter="{{ secondary_tag | escape }}" data-secondary-parent="{{ tag.name | escape }}" aria-pressed="false">{{ secondary_tag }}</button>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      <p class="publication-filter__status" aria-live="polite"><span data-publication-count>{{ publication_items.size }}</span> papers shown</p>
+    </div>
+
+    {% if preprints.size > 0 %}
+      <section class="publication-section" aria-labelledby="preprints" data-publication-section>
+        <h2 id="preprints">Preprints <span class="publication-section__count" data-publication-section-count>{{ preprints.size }}</span></h2>
+        <div class="publication-list">
+          {% for paper in preprints %}
+            {% include publication-card.html paper=paper %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if published_papers.size > 0 %}
+      <section class="publication-section" aria-labelledby="published-papers" data-publication-section>
+        <h2 id="published-papers">Publications <span class="publication-section__count" data-publication-section-count>{{ published_papers.size }}</span></h2>
+        <div class="publication-list">
+          {% for paper in published_papers %}
+            {% include publication-card.html paper=paper %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <p class="publication-empty" data-publication-empty hidden>No papers match this topic yet.</p>
+  </div>
+</section>

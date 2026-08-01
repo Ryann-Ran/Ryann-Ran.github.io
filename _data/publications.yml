@@ -1,0 +1,254 @@
+# Publication data source.
+#
+# To add a paper, copy one item under `items` and edit its fields. File order is
+# the display order. `type` must be `preprint` or `publication`; first-author
+# papers must set `first_author: true` and provide an image. Define the tag
+# hierarchy once in `primary_tags`, then assign papers with `primary_tags` and
+# optional `secondary_tags` from that hierarchy.
+
+primary_tags:
+  - name: Visual Generation
+    secondary_tags:
+      - Prompt Enhancement
+      - Image Generation & Editing
+      - Downstream Applications
+  - name: Unified Multimodal Models
+  - name: Others
+
+items:
+  - id: flux-opd
+    type: preprint
+    title: "Flux-OPD: On-Policy Distillation with Evolving Contexts"
+    authors:
+      - "Yuran Wang"
+      - "Zekun Wang"
+      - "Bohan Zeng"
+      - "Ruixu Zhang"
+      - "Wenxuan Liu"
+      - "Liu Yang"
+      - "Yifan Dai"
+      - "Yang Shi"
+      - "Bozhou Li"
+      - "Chengzhuo Tong"
+      - "Daili Hua"
+      - "Yuanxing Zhang"
+      - "Wentao Zhang#"
+    venue: arXiv
+    year: 2026
+    primary_tags:
+      - Visual Generation
+    secondary_tags:
+      - Prompt Enhancement
+    first_author: true
+    image: /images/paper_flux_opd.png
+    image_alt: Flux-OPD method overview
+    paper_url: https://arxiv.org/pdf/2607.28022
+
+  - id: scone
+    type: publication
+    title: "Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling"
+    authors:
+      - "Yuran Wang*"
+      - "Bohan Zeng*"
+      - "Chengzhuo Tong"
+      - "Wenxuan Liu"
+      - "Yang Shi"
+      - "Xiaochen Ma"
+      - "Hao Liang"
+      - "Yuanxing Zhang"
+      - "Wentao Zhang#"
+    venue: CVPR
+    year: 2026
+    award: Highlight
+    primary_tags:
+      - Visual Generation
+      - Unified Multimodal Models
+    secondary_tags:
+      - Image Generation & Editing
+    first_author: true
+    image: /images/paper_cvpr2026.png
+    image_alt: Scone framework overview
+    paper_url: https://arxiv.org/pdf/2512.12675
+    code_url: https://github.com/Ryann-Ran/Scone
+
+  - id: lad
+    type: publication
+    title: "Devil is in Details: Locality-Aware 3D Abdominal CT Volume Generation for Self-Supervised Organ Segmentation"
+    authors:
+      - "Yuran Wang"
+      - "Zhijing Wan"
+      - "Yansheng Qiu"
+      - "Zheng Wang#"
+    venue: ACM MM
+    year: 2024
+    primary_tags:
+      - Visual Generation
+    secondary_tags:
+      - Downstream Applications
+    first_author: true
+    image: /images/paper_mm2024.jpg
+    image_alt: Locality-aware 3D abdominal CT generation overview
+    paper_url: https://dl.acm.org/doi/abs/10.1145/3664647.3680588
+    code_url: https://github.com/Ryann-Ran/Lad
+
+  - id: cof-t2i
+    type: publication
+    title: "CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation"
+    authors:
+      - "Chengzhuo Tong"
+      - "Mingkun Chang"
+      - "Shenglong Zhang"
+      - "Yuran Wang"
+      - "Cheng Liang"
+      - "Zhizheng Zhao"
+      - "Ruichuan An"
+      - "Bohan Zeng"
+      - "Yang Shi"
+      - "Yifan Dai"
+      - "Ziming Zhao"
+      - "Guanbin Li"
+      - "Pengfei Wan"
+      - "Yuanxing Zhang"
+      - "Wentao Zhang#"
+    venue: ICML
+    year: 2026
+    primary_tags:
+      - Visual Generation
+    secondary_tags:
+      - Image Generation & Editing
+    first_author: false
+    paper_url: https://arxiv.org/pdf/2601.10061
+    project_url: https://cof-t2i.github.io/
+    code_url: https://github.com/VisionChengzhuo/CoF-T2I
+
+  - id: dualtoken
+    type: publication
+    title: Towards unifying visual understanding and generation with dual visual vocabularies
+    authors:
+      - "Wei Song"
+      - "Yuran Wang"
+      - "Zijia Song"
+      - "Yadong Li"
+      - "Zenan Zhou"
+      - "Long Chen"
+      - "Jianhua Xu#"
+      - "Jiaqi Wang#"
+      - "Kaicheng Yu#"
+    venue: ICLR
+    year: 2026
+    primary_tags:
+      - Unified Multimodal Models
+    first_author: false
+    paper_url: https://arxiv.org/pdf/2503.14324
+    project_url: https://songweii.github.io/dualtoken-project-page/
+    code_url: https://github.com/songweii/DualToken
+
+  - id: realunify
+    type: publication
+    title: "RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark"
+    authors:
+      - "Yang Shi"
+      - "Yuhao Dong"
+      - "Yue Ding"
+      - "Yuran Wang"
+      - "Xuanyu Zhu"
+      - "Sheng Zhou"
+      - "Wenting Liu"
+      - "Haochen Tian"
+      - "Rundong Wang"
+      - "Huanqian Wang"
+      - "Zuyan Liu"
+      - "Bohan Zeng"
+      - "Ruizhe Chen"
+      - "Qixun Wang"
+      - "Zhuoran Zhang"
+      - "Xinlong Chen"
+      - "Chengzhuo Tong"
+      - "Bozhou Li"
+      - "Qiang Liu"
+      - "Haotian Wang#"
+      - "Wenjing Yang"
+      - "Yuanxing Zhang#"
+      - "Pengfei Wan"
+      - "Yi-Fan Zhang#"
+      - "Ziwei Liu#"
+    venue: CVPR
+    year: 2026
+    primary_tags:
+      - Unified Multimodal Models
+    first_author: false
+    paper_url: https://arxiv.org/pdf/2509.24897
+    code_url: https://github.com/FrankYang-17/RealUnify
+
+  - id: anomize
+    type: publication
+    title: "Anomize: Better Open Vocabulary Video Anomaly Detection"
+    authors:
+      - "Fei Li"
+      - "Wenxuan Liu"
+      - "Jingjing Chen"
+      - "Ruixu Zhang"
+      - "Yuran Wang"
+      - "Xian Zhong"
+      - "Zheng Wang#"
+    venue: CVPR
+    year: 2025
+    primary_tags:
+      - Others
+    first_author: false
+    paper_url: https://arxiv.org/abs/2503.18094
+
+  - id: span
+    type: publication
+    title: "SPAN: Continuous Modeling of Suspicion Progression for Temporal Intention Localization"
+    authors:
+      - "Xinyi Hu*"
+      - "Yuran Wang*"
+      - "Ruixu Zhang"
+      - "Yue Li"
+      - "Wenxuan Liu"
+      - "Zheng Wang#"
+    venue: ACM MM
+    year: 2025
+    primary_tags:
+      - Others
+    first_author: false
+    paper_url: https://dl.acm.org/doi/abs/10.1145/3746027.3755104
+
+  - id: shot
+    type: publication
+    title: "Beyond the Individual: Introducing Group Intention Forecasting with SHOT Dataset"
+    authors:
+      - "Ruixu Zhang*"
+      - "Yuran Wang*"
+      - "Xinyi Hu*"
+      - "Chaoyu Mai"
+      - "Wenxuan Liu"
+      - "Danni Xu"
+      - "Xian Zhong"
+      - "Zheng Wang#"
+    venue: ACM MM Datasets Track
+    year: 2025
+    primary_tags:
+      - Others
+    first_author: false
+    paper_url: https://dl.acm.org/doi/abs/10.1145/3746027.3758248
+    code_url: https://github.com/xinyi-hu/shot-dataset
+
+  - id: contributing-dimension-structure
+    type: publication
+    title: Contributing Dimension Structure of Deep Feature for Coreset Selection
+    authors:
+      - "Zhijing Wan"
+      - "Zhixiang Wang"
+      - "Yuran Wang"
+      - "Zheng Wang#"
+      - "Hongyuan Zhu"
+      - "Shin’ichi Satoh"
+    venue: AAAI
+    year: 2024
+    primary_tags:
+      - Others
+    first_author: false
+    paper_url: https://ojs.aaai.org/index.php/AAAI/article/view/28758
+    code_url: https://github.com/ZhijingWan/contributing-dimension-structure

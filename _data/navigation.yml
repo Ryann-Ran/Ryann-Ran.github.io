@@ -6,14 +6,14 @@ main:
   # - title: "News"
   #   url: "/#-news"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "Papers"
+    url: "/#research-papers-title"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#education"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
