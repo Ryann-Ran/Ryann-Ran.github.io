@@ -17,7 +17,7 @@
       <span class="publication-card__venue">{{ paper.venue }}</span>
       <span aria-hidden="true">·</span>
       <span>{{ paper.year }}</span>
-      {% if paper.award %}<span class="publication-card__award">{{ paper.award }}</span>{% endif %}
+      {% if paper.award %}<span class="publication-card__award"><i class="fas fa-star" aria-hidden="true"></i>{{ paper.award }}</span>{% endif %}
     </div>
 
     <h2 class="publication-card__title">
