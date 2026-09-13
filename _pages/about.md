@@ -22,7 +22,7 @@ redirect_from:
     </header>
 
     <div class="intro-copy">
-      <p>I am Yuran Wang, a first-year master's student at Peking University.</p>
+      <p>I am Yuran Wang, a second-year master's student at Peking University.</p>
 
       <p>From 2022 to 2025, I worked under the supervision of <a href="https://wangzwhu.github.io/home/">Prof. Zheng Wang</a> at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab at Peking University under the supervision of <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a>.</p>
 
@@ -146,19 +146,6 @@ redirect_from:
         <div class="timeline-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Beijing, China</div>
       </div>
     </article>
-
-    <article class="timeline-entry">
-      <span class="timeline-icon"><img src="{{ '/images/logo_whu.png' | relative_url }}" alt="Wuhan University logo"></span>
-      <div class="timeline-card">
-        <div class="timeline-heading">
-          <strong class="internship-company">AIM Lab, Wuhan University</strong>
-          <time class="timeline-date">2022.10 – 2024.10</time>
-        </div>
-        <div class="internship-role">Research Intern</div>
-        <div class="timeline-note">Advised by <a href="https://wangzwhu.github.io/home/">Prof. Zheng Wang</a></div>
-        <div class="timeline-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Wuhan, China</div>
-      </div>
-    </article>
   </div>
 </section>
 
@@ -175,7 +162,7 @@ redirect_from:
     <h1 id="services">Services</h1>
     <div class="academic-detail">
       <span>Reviewer</span>
-      <p>ACM MM 2025–2026, AAAI 2026–2027, ECCV 2026, ICME 2026.</p>
+      <p>ACM MM, AAAI, ECCV, ICME.</p>
     </div>
   </section>
 </div>

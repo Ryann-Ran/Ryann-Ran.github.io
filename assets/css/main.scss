@@ -213,7 +213,7 @@ button:focus-visible {
   gap: 4.25rem;
   max-width: var(--content-width) !important;
   margin: 0 auto;
-  padding: 3.6rem 1.75rem 5rem;
+  padding: 3.25rem 1.75rem 4.5rem;
   animation: none;
 }
 
@@ -271,7 +271,7 @@ button:focus-visible {
 }
 
 .author__name {
-  margin: 1.15rem 0 0.18rem;
+  margin: 1.05rem 0 0.18rem;
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
@@ -307,7 +307,7 @@ button:focus-visible {
   position: static;
   display: grid;
   gap: 0.08rem;
-  margin: 1rem 0 0;
+  margin: 0.9rem 0 0;
   padding-top: 0.25rem;
   font-family: inherit;
   cursor: default;
@@ -357,7 +357,7 @@ button:focus-visible {
 }
 
 .page__content p {
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.78rem;
 }
 
 .page__content a {
@@ -395,11 +395,11 @@ button:focus-visible {
 
 .intro-header {
   max-width: 45rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.72rem;
 }
 
 .section-eyebrow {
-  margin: 0 0 0.65rem !important;
+  margin: 0 0 0.6rem !important;
   color: var(--accent);
   font-size: 0.8rem !important;
   font-weight: 700;
@@ -442,8 +442,8 @@ button:focus-visible {
   grid-template-columns: auto minmax(0, 1fr);
   gap: 0.85rem;
   align-items: start;
-  margin: 1.65rem 0 0;
-  padding: 1rem 1.1rem;
+  margin: 1.5rem 0 0;
+  padding: 0.9rem 1.1rem;
   border: 1px solid #d6e3eb;
   border-radius: 8px;
   background: var(--accent-soft);
@@ -475,7 +475,7 @@ button:focus-visible {
 .projects-section,
 .experience-section,
 .compact-sections {
-  margin-top: 4.5rem;
+  margin-top: 4.1rem;
 }
 
 .page__content h1,
@@ -483,8 +483,8 @@ button:focus-visible {
 .projects-section > h1,
 .experience-section > h1,
 .compact-section > h1 {
-  margin: 0 0 1.25rem;
-  padding: 1.25rem 0 0;
+  margin: 0 0 1.1rem;
+  padding: 1.1rem 0 0;
   border-top: 1px solid var(--line);
   border-bottom: 0;
   color: var(--ink);
@@ -510,8 +510,8 @@ button:focus-visible {
 }
 
 .publication-filter {
-  margin: 0 0 1.8rem;
-  padding: 0.9rem 1rem;
+  margin: 0 0 1.65rem;
+  padding: 0.82rem 1rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -525,8 +525,8 @@ button:focus-visible {
 }
 
 .publication-filter__level + .publication-filter__level {
-  margin-top: 0.7rem;
-  padding-top: 0.7rem;
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
   border-top: 1px solid var(--line);
 }
 
@@ -595,7 +595,7 @@ button:focus-visible {
 }
 
 .publication-filter__status {
-  margin: 0.7rem 0 0 4.15rem !important;
+  margin: 0.65rem 0 0 4.15rem !important;
   color: var(--muted);
   font-size: 0.82rem !important;
 }
@@ -606,7 +606,7 @@ button:focus-visible {
 }
 
 .publication-section + .publication-section {
-  margin-top: 2.3rem;
+  margin-top: 2.1rem;
 }
 
 .publication-section > h2 {
@@ -639,13 +639,13 @@ button:focus-visible {
 
 .publication-list {
   display: grid;
-  gap: 0.85rem;
+  gap: 0.75rem;
 }
 
 .publication-card {
   position: relative;
   overflow: visible;
-  padding: 0.7rem 0;
+  padding: 0.6rem 0;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -753,7 +753,7 @@ button:focus-visible {
 }
 
 .publication-card__authors {
-  margin: 0.55rem 0 0.75rem !important;
+  margin: 0.5rem 0 0.68rem !important;
   color: #465561;
   font-size: 0.84rem !important;
   line-height: 1.56;
@@ -765,8 +765,8 @@ button:focus-visible {
 }
 
 .project-card__contribution {
-  margin: 0 0 0.78rem !important;
-  padding-top: 0.35rem;
+  margin: 0 0 0.7rem !important;
+  padding-top: 0.3rem;
   color: #40515e;
   font-size: 0.84rem !important;
 }
@@ -838,7 +838,7 @@ button:focus-visible {
 
 .timeline-list {
   display: grid;
-  gap: 0.7rem;
+  gap: 0.6rem;
   margin: 0;
 }
 
@@ -851,7 +851,7 @@ button:focus-visible {
   grid-template-columns: 3rem minmax(0, 1fr);
   gap: 1rem;
   align-items: start;
-  padding: 0.65rem 0;
+  padding: 0.58rem 0;
 }
 
 .timeline-icon {
@@ -981,7 +981,7 @@ button:focus-visible {
 }
 
 .compact-section > h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
   font-size: 1.28rem;
 }
 
@@ -1016,8 +1016,8 @@ button:focus-visible {
   gap: 0.65rem 1rem;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
-  padding-top: 1rem;
+  margin-top: 3.6rem;
+  padding-top: 0.9rem;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.8rem;
@@ -1046,7 +1046,7 @@ button:focus-visible {
 @media (max-width: 924px) {
   #main {
     display: block;
-    padding-top: 2.25rem;
+    padding-top: 2rem;
   }
 
   .about-section {
@@ -1054,7 +1054,7 @@ button:focus-visible {
   }
 
   .about-section__profile {
-    margin-bottom: 2.75rem;
+    margin-bottom: 2.5rem;
   }
 
   .profile_box {
@@ -1079,8 +1079,8 @@ button:focus-visible {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem 1.15rem;
-    margin-top: 1.15rem;
-    padding-top: 0.85rem;
+    margin-top: 1.05rem;
+    padding-top: 0.75rem;
   }
 
   .author__urls-wrapper a {
@@ -1112,7 +1112,7 @@ button:focus-visible {
   .projects-section,
   .experience-section,
   .compact-sections {
-    margin-top: 3.4rem;
+    margin-top: 3.1rem;
   }
 
   .publication-card--featured {
@@ -1121,7 +1121,7 @@ button:focus-visible {
 
   .publication-card__figure {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
   }
 
   .publication-card__figure img {
@@ -1143,7 +1143,7 @@ button:focus-visible {
   }
 
   .compact-section + .compact-section {
-    margin-top: 3.4rem;
+    margin-top: 3.1rem;
   }
 }
 
@@ -1158,7 +1158,7 @@ button:focus-visible {
   }
 
   #main {
-    padding: 1.75rem 1rem 3.5rem;
+    padding: 1.55rem 1rem 3.1rem;
   }
 
   .profile_box {
@@ -1192,7 +1192,7 @@ button:focus-visible {
   }
 
   .opportunity-callout {
-    padding: 0.9rem;
+    padding: 0.82rem 0.9rem;
   }
 
   .page__content h1,
@@ -1221,7 +1221,7 @@ button:focus-visible {
   }
 
   .publication-card {
-    padding: 1.15rem 0;
+    padding: 1.05rem 0;
   }
 
   .publication-card__title {
@@ -1257,7 +1257,7 @@ button:focus-visible {
   }
 
   .academic-detail p {
-    margin-top: 0.35rem;
+    margin-top: 0.3rem;
   }
 }
 
