@@ -24,7 +24,7 @@ redirect_from:
     <div class="intro-copy">
       <p>I am Yuran Wang, a second-year master's student at Peking University.</p>
 
-      <p>From 2022 to 2025, I worked under the supervision of <a href="https://wangzwhu.github.io/home/">Prof. Zheng Wang</a> at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab at Peking University under the supervision of <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a>.</p>
+      <p>From 2022 to 2024, I worked under the supervision of <a href="https://wangzwhu.github.io/home/">Prof. Zheng Wang</a> at AIM Lab, Wuhan University. Since 2024, I have been with DCAI Lab at Peking University under the supervision of <a href="https://zwt233.github.io/">Prof. Wentao Zhang</a>.</p>
 
       <p>My research focuses on <strong>visual generation</strong> and <strong>unified multimodal models</strong>, aiming to build faithful, controllable, and creative generative intelligence for the real world. I am also interested in world models.</p>
 
@@ -162,7 +162,7 @@ redirect_from:
     <h1 id="services">Services</h1>
     <div class="academic-detail">
       <span>Reviewer</span>
-      <p>ACM MM, AAAI, ECCV, ICME.</p>
+      <p>ICLR, ACM MM, AAAI, ECCV.</p>
     </div>
   </section>
 </div>
