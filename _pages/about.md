@@ -68,8 +68,12 @@ redirect_from:
 
         <div class="publication-card__footer">
           <div class="publication-card__links" aria-label="Project resources">
-            <a href="https://arxiv.org/abs/2604.04707" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>
-            <a href="https://github.com/OpenDCAI/OpenWorldLib" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+            <a class="publication-badge publication-badge--paper" href="https://arxiv.org/abs/2604.04707" target="_blank" rel="noopener noreferrer">
+              <span class="publication-badge__label"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</span><span class="publication-badge__value">arXiv</span>
+            </a>
+            <a class="publication-badge publication-badge--code" href="https://github.com/OpenDCAI/OpenWorldLib" target="_blank" rel="noopener noreferrer">
+              <span class="publication-badge__label"><i class="fab fa-github" aria-hidden="true"></i> Code</span><span class="publication-badge__value">GitHub</span>
+            </a>
           </div>
         </div>
       </div>
@@ -154,7 +158,7 @@ redirect_from:
     <h1 id="honors-and-awards">Honors and Awards</h1>
     <div class="academic-detail">
       <time>2022 – 2025</time>
-      <p>National Scholarship, First Class Scholarship, Outstanding Graduate.</p>
+      <p>National Scholarship, First Class Scholarship, Outstanding Graduate (Wuhan University).</p>
     </div>
   </section>
 

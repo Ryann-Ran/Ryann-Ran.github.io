@@ -335,6 +335,14 @@ button:focus-visible {
   text-align: center;
 }
 
+.author__urls-wrapper svg {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 0.88rem;
+  color: var(--muted);
+  fill: currentColor;
+}
+
 .page__inner-wrap,
 .page__content {
   width: 100%;
@@ -773,23 +781,33 @@ button:focus-visible {
 
 .publication-card__footer {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem 1rem;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-top: auto;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: stretch;
+  margin-top: 0;
 }
 
 .publication-card__tags,
-.publication-card__links {
+.publication-card__links,
+.publication-card__downloads {
   display: flex;
   flex-wrap: wrap;
   gap: 0.34rem;
 }
 
-.publication-card__links {
-  justify-content: flex-end;
-  margin-left: auto;
+.publication-card__resources {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+}
+
+.publication-card__links,
+.publication-card__downloads {
+  gap: 0.45rem 0.55rem;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .publication-tag {
@@ -806,21 +824,83 @@ button:focus-visible {
   color: #75808a;
 }
 
-.page__content .publication-card__links a {
-  color: var(--accent);
-  font-size: 0.84rem;
-  font-weight: 700;
+.page__content .publication-badge {
+  display: inline-flex;
+  overflow: hidden;
+  align-items: stretch;
+  height: 22px;
+  border-radius: 3px;
+  background: #555;
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: filter 140ms ease;
+}
+
+.publication-badge__label,
+.publication-badge__value {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  padding: 0 7px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.08));
+}
+
+.publication-badge__value {
+  background-color: #40758a;
+  font-variant-numeric: tabular-nums;
+}
+
+.publication-badge__value i {
+  font-size: 9px;
+}
+
+.publication-badge--paper .publication-badge__value {
+  background-color: #b31b1b;
+}
+
+.publication-badge--code .publication-badge__value,
+.publication-badge--post .publication-badge__value {
+  background-color: #24292f;
+}
+
+.publication-badge--project .publication-badge__value {
+  background-color: #2e7774;
+}
+
+.publication-badge--untracked .publication-badge__value {
+  background-color: #6b7280;
+}
+
+.page__content .publication-badge:hover {
+  filter: brightness(1.12);
+  color: #fff;
   text-decoration: none;
 }
 
-.page__content .publication-card__links a:hover {
-  color: var(--accent-dark);
-  text-decoration: none;
+.publication-badge__label i {
+  color: #fff;
+  font-size: 12px;
 }
 
-.publication-card__links i {
-  margin-right: 0.12rem;
-  color: #617b8e;
+.publication-badge__label svg {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  fill: currentColor;
+}
+
+.publication-badge__label img {
+  display: block;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  object-fit: contain;
 }
 
 .publication-empty {
@@ -1132,10 +1212,15 @@ button:focus-visible {
     display: block;
   }
 
-  .publication-card__links {
-    justify-content: flex-start;
+  .publication-card__resources {
+    align-items: flex-start;
     margin-top: 0.68rem;
     margin-left: 0;
+  }
+
+  .publication-card__links,
+  .publication-card__downloads {
+    justify-content: flex-start;
   }
 
   .compact-sections {

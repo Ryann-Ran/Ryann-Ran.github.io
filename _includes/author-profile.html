@@ -17,12 +17,15 @@
     {% endif %}
   </div>
 
-  <nav class="author__urls-wrapper" aria-label="Academic profiles">
+  <nav class="author__urls-wrapper" aria-label="Profile links">
     {% if author.googlescholar %}
       <a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a>
     {% endif %}
     {% if author.github %}
       <a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+    {% endif %}
+    {% if author.twitter %}
+      <a href="https://x.com/{{ author.twitter }}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26L22.828 21.75h-6.657l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a>
     {% endif %}
     {% if author.orcid %}
       <a href="{{ author.orcid }}" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a>

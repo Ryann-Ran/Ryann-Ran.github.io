@@ -46,10 +46,42 @@
         {% endfor %}
       </div>
 
-      <div class="publication-card__links" aria-label="Paper resources">
-        {% if paper.paper_url %}<a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>{% endif %}
-        {% if paper.code_url %}<a href="{{ paper.code_url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
-        {% if paper.project_url %}<a href="{{ paper.project_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Project</a>{% endif %}
+      <div class="publication-card__resources">
+        <div class="publication-card__links" aria-label="Paper resources">
+          {% if paper.paper_url %}
+            <a class="publication-badge publication-badge--paper" href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">
+              <span class="publication-badge__label"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</span><span class="publication-badge__value">{% if paper.paper_url contains 'arxiv.org' %}arXiv{% else %}PDF{% endif %}</span>
+            </a>
+          {% endif %}
+          {% if paper.code_url %}
+            <a class="publication-badge publication-badge--code" href="{{ paper.code_url }}" target="_blank" rel="noopener noreferrer">
+              <span class="publication-badge__label"><i class="fab fa-github" aria-hidden="true"></i> Code</span><span class="publication-badge__value">GitHub</span>
+            </a>
+          {% endif %}
+          {% if paper.project_url %}
+            <a class="publication-badge publication-badge--project" href="{{ paper.project_url }}" target="_blank" rel="noopener noreferrer">
+              <span class="publication-badge__label"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Project</span><span class="publication-badge__value">Website</span>
+            </a>
+          {% endif %}
+          {% if paper.huggingface_post_url %}
+            {% assign post_id = paper.huggingface_post_url | split: '/' | last %}
+            <a class="publication-badge publication-badge--post" href="{{ paper.huggingface_post_url }}" target="_blank" rel="noopener noreferrer" data-x-post-id="{{ post_id }}" data-x-post-api="https://api.fxtwitter.com/HuggingPapers/status/{{ post_id }}" title="Posted by Hugging Face on X{% if paper.huggingface_post_views %} — {{ paper.huggingface_post_views }} views{% endif %}" aria-label="Posted by Hugging Face on X{% if paper.huggingface_post_views %} — {{ paper.huggingface_post_views }} views{% endif %}">
+              <span class="publication-badge__label"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26L22.828 21.75h-6.657l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> Posted by Hugging Face</span><span class="publication-badge__value"><i class="fas fa-eye" aria-hidden="true"></i><span data-x-post-views>{% if paper.huggingface_post_views %}{% if paper.huggingface_post_views >= 1000 %}{{ paper.huggingface_post_views | divided_by: 1000.0 | round: 1 }}k{% else %}{{ paper.huggingface_post_views }}{% endif %}{% else %}—{% endif %}</span> views</span>
+            </a>
+          {% endif %}
+        </div>
+
+        {% if paper.huggingface_downloads %}
+          <div class="publication-card__downloads" aria-label="All-time downloads on Hugging Face">
+            {% for resource in paper.huggingface_downloads %}
+              {% capture resource_url %}https://huggingface.co/{% if resource.repo_type == 'datasets' %}datasets/{% endif %}{{ resource.repo_id }}{% endcapture %}
+              {% capture api_url %}https://huggingface.co/api/{{ resource.repo_type }}/{{ resource.repo_id }}?expand%5B%5D=downloadsAllTime{% endcapture %}
+              <a class="publication-badge publication-badge--downloads{% if resource.downloads_tracked == false %} publication-badge--untracked{% endif %}" href="{{ resource_url }}" target="_blank" rel="noopener noreferrer" {% if resource.downloads_tracked == false %}title="Hugging Face does not track downloads for this model"{% else %}data-huggingface-download-api="{{ api_url }}" data-download-label="{{ resource.label | escape }}" title="{{ resource.label | escape }} — {{ resource.downloads_all_time }} all-time downloads on Hugging Face"{% endif %}>
+                <span class="publication-badge__label"><img src="{{ '/images/logo_huggingface.svg' | relative_url }}" alt="" aria-hidden="true" width="14" height="14"> {{ resource.label }}</span><span class="publication-badge__value">{% if resource.downloads_tracked == false %}Not tracked{% else %}<i class="fas fa-download" aria-hidden="true"></i><span data-huggingface-download-count>{% if resource.downloads_all_time >= 1000 %}{{ resource.downloads_all_time | divided_by: 1000.0 | round: 1 }}k{% else %}{{ resource.downloads_all_time }}{% endif %}</span>{% endif %}</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
